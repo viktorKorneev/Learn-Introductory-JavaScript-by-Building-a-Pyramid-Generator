@@ -7,25 +7,21 @@
   </head>
   <body>
     <script>
-      const  character = "#";
-      const  count = 8;
-      const  rows = [];
-   
+      const character = "#";
+      const count = 8;
+      const rows = [];
+
       for (let i = 0; i < count; i = i + 1) {
         rows.push(i);
-       } 
+      }
 
-       let result = ""
+      let result = "";
 
-       console.log(result);
+      console.log(result);
 
-       for (const row of rows) {
-        result = row + result;
-       }
-       
-        
-       
-      
+      for (const row of rows) {
+        result = result + "\n" + row;
+      }
     </script>
   </body>
 </html>
