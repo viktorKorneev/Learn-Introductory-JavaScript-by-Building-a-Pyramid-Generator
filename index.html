@@ -12,16 +12,18 @@
       const rows = [];
 
       for (let i = 0; i < count; i = i + 1) {
-        character.repeat(i);
+        rows.push(character.repeat(i + 1))
       }
 
-      let result = "";
+      let result = ""
 
-      console.log(result);
+      
 
       for (const row of rows) {
         result = result + "\n" + row;
       }
+
+      console.log(result);
     </script>
   </body>
 </html>
